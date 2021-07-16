@@ -594,8 +594,6 @@ dependencies = [
 [[package]]
 name = "internet2"
 version = "0.3.10"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2a07ae295e404b850980559ea28bd42e3bd43cdfd59ea704ad12e056bf510f7"
 dependencies = [
  "amplify",
  "amplify_derive",

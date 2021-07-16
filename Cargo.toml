@@ -26,7 +26,9 @@ strict_encoding = "1"
 lightning_encoding = "0.4.0-beta.1"
 descriptor-wallet = { version = "0.4", features = ["keygen"] }
 bitcoin = { version = "0.26", features = ["rand"] }
-internet2 = "0.3.10"
+# internet2 = "0.3.10"
+# internet2 = { path = "../rust-internet2" }
+internet2 = { git = "https://github.com/zkao/rust-internet2", branch = "removeCreateUnmarshaller" }
 serde_crate = { package = "serde", version = "1.0", features = ["derive"], optional = true }
 serde_with = { version = "1.5", features = ["hex"], optional = true }
 lazy_static = "1.4"
